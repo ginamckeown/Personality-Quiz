@@ -10,6 +10,8 @@ var oldScore = 0;
 
 var result = document.getElementById("result");
 
+var restart = document.getElementById("restartButton")
+
 
 //#TODO: Use the DOM to create variables for the first quiz question.
 // variables for answer choice buttons for question 1
@@ -48,6 +50,7 @@ traditional.addEventListener("click", old);
 playful.addEventListener("click", young);
 modern.addEventListener("click", youngAdult);
 
+restart.addEventListener("click", restart)
 
 //#TODO: Define quiz functions here
 function young(){
@@ -80,6 +83,17 @@ function old() {
   if (questionCount >= 3){
       updateResult();
   }
+}
+
+function reset() {
+  questionCount = 0;
+  
+  result.innerHTML = "Retesting...";
+  
+  youngScore = 0;
+  youngAdultScore = 0;
+  midAgedScore = 0;
+  oldScore = 0;
 }
 
 // assesing results

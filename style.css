@@ -10,7 +10,6 @@ h1 {
   font-style: bold;
   color: #4d6b4f;
   margin-left: 20px;
-  margin-bottom: 50px;
   font-size: 40px;
 }
 
@@ -57,8 +56,9 @@ img {
   
 }
 
+
 .container {
-    height: 100vw;
+  height: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,4 +78,10 @@ img {
 #result {
   color: #4d6b4f;
   font-size: 40px;
+}
+
+#intro {
+  font-style: none;
+  margin-bottom: 80px;
+
 }
