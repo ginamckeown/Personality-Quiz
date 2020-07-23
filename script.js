@@ -9,32 +9,61 @@ var midAgedScore = 0;
 var oldScore = 0;
 
 
-
-
-
 //#TODO: Use the DOM to create variables for the first quiz question.
-var q1a1 = document.getElementById("q1a1");
-var q1a2 = document.getElementById("q1a2");
-var q1a3 = document.getElementById("q1a3");
-var q1a4 = document.getElementById("q1a4");
+// variables for answer choice buttons for question 1
+var oatmeal = document.getElementById("oatmeal");
+var eggs = document.getElementById("eggs");
+var pancakes = document.getElementById("pancakes");
+var fridge = document.getElementById("fridge");
 
+// variables for answer choice buttons for question 2
+var tokyo = document.getElementById("tokyo");
+var paris = document.getElementById("paris");
+var la = document.getElementById("la");
+var miami = document.getElementById("miami");
+
+// variables for answer choice buttons for question 1
+var simple = document.getElementById("simple");
+var traditional = document.getElementById("traditional");
+var playful = document.getElementById("playful");
+var modern = document.getElementById("modern");
 
 
 
 //#TODO: Add Event Listeners to your answer choice variables.
-q1a1.addEventListener("click", result1);
+oatmeal.addEventListener("click", old);
+eggs.addEventListener("click", youngAdult);
+pancakes.addEventListener("click", young);
+fridge.addEventListener("click", midAged);
 
+tokyo.addEventListener("click", midAged);
+paris.addEventListener("click", young);
+la.addEventListener("click", youngAdult);
+miami.addEventListener("click", old);
 
-
-
-
+simple.addEventListener("click", midAged);
+traditional.addEventListener("click", old);
+playful.addEventListener("click", young);
+modern.addEventListener("click", youngAdult);
 
 
 //#TODO: Define quiz functions here
 function young(){
-  
+  youngScore+=1;
+  questionCount+=1;
 }
 
 function youngAdult() {
+  youngAdultScore+=1;
+  questionCount+=1;
+}
 
+function midAged() {
+  midAgedScore+=1;
+  questionCount+=1;
+}
+
+function old() {
+  oldScore+=1;
+  questionCount+=1;
 }
