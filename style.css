@@ -3,14 +3,15 @@
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin-left: 20px;
-  background: lightgrey
+  background: #c5d4c6;
 }
 
 h1 {
   font-style: bold;
-  color: #709973;
+  color: #4d6b4f;
   margin-left: 20px;
   margin-bottom: 50px;
+  font-size: 40px;
 }
 
 h2 {
@@ -27,6 +28,11 @@ h2 {
   height: 10em;
   margin: 20px 20px 20px 20px;
 }
+
 button {
   margin-left: 20px;
+}
+
+.container {
+  
 }
