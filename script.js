@@ -97,6 +97,6 @@ function updateResult(){
     result.innerHTML = "You are 50+";
  }
  else{
-    result.innerHTML = "You are a good mix!!";
+    result.innerHTML = "You are a good mix! :)";
  }
 }
