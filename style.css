@@ -34,5 +34,24 @@ button {
 }
 
 .container {
-  
+    height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.4;
+  color: #ffdebd;
+  margin: 1rem;
+  background: radial-gradient(
+    circle farthest-corner,
+    #333,
+    #111
+  );
+  height: 100vh;
+  overflow: hidden;
+}
+
+#result {
+  color: #4d6b4f;
+  font-size: 40px;
 }
