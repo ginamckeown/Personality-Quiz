@@ -2,23 +2,31 @@
 
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 2em;
+  margin-left: 20px;
+  background: lightgrey
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  font-style: bold;
+  color: #709973;
+  margin-left: 20px;
+  margin-bottom: 50px;
 }
 
 h2 {
-  margin-top: 2em; 
+  margin-top: 20px; 
+  margin-left: 20px;
 }
 
 .question {
   display: flex;
-  margin-top: 2em;
+  margin-bottom: 100px;
 }
   
 .answer-choice img {
   height: 10em;
+  margin: 20px 20px 20px 20px;
+}
+button {
+  margin-left: 20px;
 }
