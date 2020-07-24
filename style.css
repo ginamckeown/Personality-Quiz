@@ -11,19 +11,18 @@ h1 {
   color: #4d6b4f;
   margin-left: 20px;
   font-size: 40px;
-  text-shadow: 3px 3px #FFFFFF;
+  text-shadow: 2px 2px #FFFFFF;
 }
 
 h2 {
   margin-top: 20px; 
   margin-left: 20px;
-  text-shadow: 3px 3px #FFFFFF;
+  text-shadow: 2px 2px #FFFFFF;
 }
 
 .question {
   display: flex;
   margin-bottom: 100px;
-  text-shadow: 3px 3px #FFFFFF;
 }
   
 .answer-choice img {
