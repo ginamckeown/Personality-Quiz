@@ -105,7 +105,6 @@ function updateResult(){
 }
 
 // reset
-
 function reset() {
   questionCount = 0;
   
