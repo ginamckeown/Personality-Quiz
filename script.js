@@ -85,17 +85,6 @@ function old() {
   }
 }
 
-function reset() {
-  questionCount = 0;
-  
-  result.innerHTML = "Retesting...";
-  
-  youngScore = 0;
-  youngAdultScore = 0;
-  midAgedScore = 0;
-  oldScore = 0;
-}
-
 // assesing results
 function updateResult(){
  if (youngScore >= 2){
@@ -113,4 +102,17 @@ function updateResult(){
  else{
     result.innerHTML = "You are a good mix! :)";
  }
+}
+
+// reset
+
+function reset() {
+  questionCount = 0;
+  
+  result.innerHTML = "Retesting...";
+  
+  youngScore = 0;
+  youngAdultScore = 0;
+  midAgedScore = 0;
+  oldScore = 0;
 }
