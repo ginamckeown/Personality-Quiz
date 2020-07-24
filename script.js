@@ -50,7 +50,7 @@ traditional.addEventListener("click", old);
 playful.addEventListener("click", young);
 modern.addEventListener("click", youngAdult);
 
-restart.addEventListener("click", restart)
+restart.addEventListener("click", reset)
 
 //#TODO: Define quiz functions here
 function young(){
@@ -108,10 +108,9 @@ function updateResult(){
 function reset() {
   questionCount = 0;
   
-  result.innerHTML = "Retesting...";
-  
   youngScore = 0;
   youngAdultScore = 0;
   midAgedScore = 0;
   oldScore = 0;
+  result.innerHTML = "Retesting...";
 }
