@@ -30,6 +30,7 @@ h2 {
   margin: 20px 20px 20px 20px;
 }
 
+/* Button */
 button {
   margin-left: 20px;
   background-color: #4d6b4f;
@@ -46,26 +47,27 @@ button {
 }
 
 button:hover {
-  background-color: white; /* Green */
+  background-color: white;
   color: white;
   border: 2px solid #4d6b4f;
   color: #4d6b4f;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.button:after {
-  background-color: white; /* Green */
+
+button:focus{
+  background-color: white;
   color: white;
   border: 2px solid #4d6b4f;
   color: #4d6b4f;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  outline: none;
 }
 
 img {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   
 }
-
 
 .container {
   height: 100vw;
